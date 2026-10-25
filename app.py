@@ -19,12 +19,12 @@ model = load_model()
 LEVELS = {"Low": 0.0, "Medium": 0.5, "High": 1.0}
 
 FEATURES = {
-    "industrial_risk": "Industrial risk",
-    "management_risk": "Management risk",
-    "financial_flexibility": "Financial flexibility",
-    "credibility": "Credibility",
-    "competitiveness": "Competitiveness",
-    "operating_risk": "Operating risk",
+     "industrial_risk": "Industrial risk (High = riskier)",
+    "management_risk": "Management risk (High = riskier)",
+    "financial_flexibility": "Financial flexibility (High = stronger)",
+    "credibility": "Credibility (High = stronger)",
+    "competitiveness": "Competitiveness (High = stronger)",
+    "operating_risk": "Operating risk (High = riskier)",
 }
 
 st.title("📉 Bankruptcy Prevention")
